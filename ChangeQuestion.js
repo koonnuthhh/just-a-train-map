@@ -15,11 +15,11 @@ document.getElementById("select-group").addEventListener('change', function () {
             break;
         case "1":
             QuestionforGroup(GroupName);
-            RealQuestion("Phatpong is live near Rangsit. He want to meet his friend at Sala Daeng. How much it take to go there and how much time it take?");
+            RealQuestion("Phatpong is live near Rangsit. He want to meet his friend at Sala Daeng. How much it take to go there if he want to Si Kritha first");
             break;
         case "2":
             QuestionforGroup(GroupName);
-            RealQuestion();
+            RealQuestion("");
             break;
         case "3":
             QuestionforGroup(GroupName);
