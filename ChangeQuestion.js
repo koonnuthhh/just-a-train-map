@@ -1,14 +1,9 @@
 function QuestionforGroup(GroupName) {
     Title.innerHTML = "Question for group " + GroupName + ": ";
 }
-
-
-
-
-
-
-
-
+function RealQuestion(Text) {
+    document.getElementById("Question").innerHTML = Text;
+}
 document.addEventListener('click', function () {
     let GroupNum = document.getElementById("select-group").value;
     let GroupName = document.getElementById(GroupNum).innerHTML;
@@ -19,6 +14,7 @@ document.addEventListener('click', function () {
     switch (GroupNum) {
         case "1":
             QuestionforGroup(GroupName);
+            RealQuestion("Phatpong is live near Rangsit. He want to meet his friend at Sala Daeng. How much it take to go there and how much time it take?");
             break;
         case "2":
             QuestionforGroup(GroupName);
