@@ -1,3 +1,10 @@
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
 .select-group {
   width: 200px;
   height: 40px;
@@ -8,7 +15,7 @@
   font-size: 15px; 
 }
 .Rules-box {
-  
+  font-family: Inter;
   background-color: #eeeeee;
   padding-left: 10px;
   padding-right: 5px;
