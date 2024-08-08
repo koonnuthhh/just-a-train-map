@@ -15,7 +15,7 @@ document.getElementById("select-group").addEventListener('change', function () {
             RealQuestion("I'm just too lazy to delete this choice");
             break;
         case "1":
-            QuestionforGroup(GroupName,"Phatpong is live near Rangsit. He want to meet his friend at Sala Daeng. How much it take to go there if he want to Si Kritha first");
+            QuestionforGroup(GroupName,"Phatpong is live near Rangsit. He want to meet his friend at Sala Daeng. How much it take to go there if he want to go to Nonthaburi civic center first? Tell me the fastest way and the longest");
             break;
         case "2":
             QuestionforGroup(GroupName);
