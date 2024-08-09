@@ -33,10 +33,10 @@
   margin-left: 150px;
   margin-top: 150px;
 }
-@media screen and (max-width: 1200) {
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
   .map {
-    margin-left: 850px;
-  }  
+    margin-left: 450px;
+  }
 }
 @media screen and (max-width:1000px){
   .map {
