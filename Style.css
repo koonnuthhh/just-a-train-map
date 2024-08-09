@@ -33,7 +33,11 @@
   margin-left: 150px;
   margin-top: 150px;
 }
- 
+@media screen and (max-width: 1200) {
+  .map {
+    margin-left: 550px;
+  }  
+}
 @media screen and (max-width:1000px){
   .map {
     margin-left: 450px;
